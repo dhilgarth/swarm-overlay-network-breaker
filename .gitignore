@@ -1,0 +1,15 @@
+*.d.ts
+node_modules
+cdktf.out
+cdktf.log
+*terraform.*.tfstate.backup
+.terraform
+tsconfig.tsbuildinfo
+!jest.config.js
+!setup.js
+out
+cdktf.out.aws
+/.idea
+.env
+terraform.*.tfstate
+*-ssh-control-socket

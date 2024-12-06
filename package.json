@@ -1,0 +1,31 @@
+{
+  "name": "network-tester",
+  "version": "1.0.0",
+  "main": "main.js",
+  "types": "main.ts",
+  "license": "MPL-2.0",
+  "private": true,
+  "scripts": {
+  },
+  "engines": {
+    "node": ">=18.0"
+  },
+  "dependencies": {
+    "@cdktf/provider-aws": "^19.20.0",
+    "@cdktf/provider-tls": "^10.0.1",
+    "@sovarto/cdktf-provider-docker": "^3.0.9",
+    "@sovarto/cdktf-provider-hcloud": "^0.0.1",
+    "@sovarto/cdktf-provider-ssh": "^2.7.0-beta",
+    "@sovarto/cdktf-utils": "^0.9.19",
+    "cdktf": "^0.20.9",
+    "constructs": "^10.3.0",
+    "deepmerge": "^4.3.1",
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^20.12.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
